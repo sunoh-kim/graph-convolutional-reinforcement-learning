@@ -1,15 +1,12 @@
 # DGN
 
 Written by Jiechuan Jiang and Zongqing Lu
-
-**Peking University**.
+Reproduced by Sunoh Kim
 
 ### Table of Contents
 1. [Introduction](#introduction)
 2. [Dependencies](#dependencies)
-3. [Applications](#applications)
-4. [Issues](#issues)
-5. [Citation](#citation)
+3. [Citation](#citation)
 
 ### Introduction
 
@@ -32,18 +29,6 @@ Install dependencies using pip.
 ```shell
 python -m pip install -r requirements.txt
 ```
-
-
-### Applications
-
-DGN is simple and efficient. It empirically outperforms many state-of-art algorithms. DGN is applicable to many real applications. DGN has been applied to:
-* **Traffic signal control** by researchers from Penn State ([CoLight: Learning Network-level Cooperation for Traffic Signal Control](https://arxiv.org/abs/1905.05717)). 
-
-We expect DGN will be widely applied to many more applications. 
-
-### Issues
-
-*The paper ([Learning Transferable Cooperative Behavior in Multi-Agent Teams](https://arxiv.org/pdf/1906.01202.pdf)) mentions that our DGN is limited by the fixed number of agent neighbors. This is not true. DGN does not have this limitation. The fixed number came from our implementations. Our current implementations are based on TensorFlow, however, tensorFlow does not support dynamic computational graph. So, we fix the number of neighbors for each agent in these implementations. Indeed, DGN adapts to fully dynamic environments, no matter how many neighbors each agent has at a timestep and no matter how the graph of agents changes (disconnected or fully connected). We will appreciate it if anyone can implement DGN using PyTorch. Please let us know if you need any help.*
 
 ### Citation
 
