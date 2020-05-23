@@ -31,7 +31,7 @@ python -m pip install -r requirements.txt
 
 ### Citation
 
-If you are using the codes, please cite our paper.
+If you are using the codes, please cite the paper.
 
 [Jiechuan Jiang, Chen Dun, Tiejun Huang, and Zongqing Lu. *Graph convolutional reinforcement learning*. ICLR'20.](https://arxiv.org/abs/1810.09202)
 
