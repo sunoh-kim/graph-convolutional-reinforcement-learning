@@ -48,7 +48,7 @@ git clone https://github.com/suno8386/DGN-reproduced.git
 cd DGN-reproduced
 pip install -r requirements.txt
 ```
-	(The authors of DGN used tensorflow 2.1.0 and Keras 2.3.1. But some functions are deprecated in them. So, I used tensorflow 1.14.0 and Keras 2.0.8 and modified the codes accordingly.)
+The authors of DGN used tensorflow 2.1.0 and Keras 2.3.1. But some functions are deprecated in them. So, I used tensorflow 1.14.0 and Keras 2.0.8 and modified the codes accordingly.
 
 ## Implementing DGN
 Now, we will reproduce the result of the DGN in the Routing scenario.
