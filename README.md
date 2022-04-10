@@ -1,7 +1,6 @@
-# Graph Spectral Theory and Graph Convolutional Networks - Assignment Solution
+# Graph Convolutional Reinforcement Learning
 
 
-This repository contains my assignment solution for the Graph Spectral Theory and Graph Convolutional Networks course (430.729_004) offered by Seoul National University (Spring 2020).
 Based on [dgn](https://github.com/PKU-AI-Edge/DGN/), I reproduced the results in the scenario, Routing, presented in the paper
 [Graph Convolution Reinforcement Learning](https://arxiv.org/abs/1810.09202).
 
@@ -48,7 +47,7 @@ git clone https://github.com/suno8386/DGN-reproduced.git
 cd DGN-reproduced
 pip install -r requirements.txt
 ```
-The authors of DGN used tensorflow 2.1.0 and Keras 2.3.1. But some functions are deprecated in them. So, I used tensorflow 1.14.0 and Keras 2.0.8 and modified the codes accordingly.
+	(The authors of DGN used tensorflow 2.1.0 and Keras 2.3.1. But some functions are deprecated in them. So, I used tensorflow 1.14.0 and Keras 2.0.8 and modified the codes accordingly.)
 
 ## Implementing DGN
 Now, we will reproduce the result of the DGN in the Routing scenario.
