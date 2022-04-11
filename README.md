@@ -1,7 +1,7 @@
 # Graph Convolutional Reinforcement Learning
 
 
-Based on [dgn](https://github.com/PKU-AI-Edge/DGN/), I reproduced the results in the scenario, Routing, presented in the paper
+Based on [DGN](https://github.com/PKU-AI-Edge/DGN/), I reproduced the results in the scenario, Routing, presented in the paper
 [Graph Convolution Reinforcement Learning](https://arxiv.org/abs/1810.09202).
 
 The algorithm for the assignment is implemented using TensorFlow in Python.
@@ -32,7 +32,7 @@ export PYTHONPATH=$(pwd)/python:$PYTHONPATH
 ```
 
 ## Installing Dependencies
-Before implementing [DGN](https://github.com/suno8386/DGN-reproduced), we need to create a new conda environment (If you want) and install dependencies using pip.
+Before implementing DGN, we need to create a new conda environment (If you want) and install dependencies using pip.
 
  - Creating new conda environment
 ```
